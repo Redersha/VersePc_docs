@@ -1,0 +1,14 @@
+.gradient-page {
+  background: linear-gradient(
+    to top,
+    #8b5cf6 2%,      /* 紫色 */
+    #ffffff 15%      /* 白色 */
+  );
+}
+
+/* 让内容区背景透明，否则会盖住渐变 */
+.gradient-page .VPContent,
+.gradient-page .VPDoc,
+.gradient-page .vp-doc {
+  background: transparent;
+}
