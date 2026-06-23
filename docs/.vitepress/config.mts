@@ -15,35 +15,31 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: '教程',
-        link: '/' ,
+      { text: '首页', link: '/' },
+      {
+        text: '新手入门',
+        link: '/start/',
         items: [
+          { text: '1. 下载和安装', link: '/start/install' },
+          { text: '2. 基本功能', link: '/start/basic_functions' },
           {
-            text: '新手入门',
-            link: '/start/',
-            items: [
-              { text: '下载和安装', link: '/start/install' },
-              { text: '基本功能', link: '/start/basic_functions' },
-            ]
-          },
-          {
-            text: '多人游戏',
+            text: '3. 多人游戏',
             link: '/multiplayer/',
             items: [
-              { text: '陶瓦联机', link: '/multiplayer/terracotta' },
-              { text: '端口映射', link: '/multiplayer/port_mapping' },
+              { text: '3.1 陶瓦联机', link: '/multiplayer/terracotta' },
+              { text: '3.2 端口映射', link: '/multiplayer/port_mapping' },
             ]
           }
         ]
       },
-      { text: '协议',
-        link:'/terms/LICENSE' ,
+      { 
+        text: '协议',
+        link: '/terms/LICENSE'
       }
     ],
 
     search: {
       provider: 'local',
-    
     },
 
     socialLinks: [
@@ -53,7 +49,7 @@ export default defineConfig({
       message: '基于 CC BY-SA 4.0 许可发布',
       copyright: '版权所有 © 2026 豆杰'
     },
-     docFooter: {
+    docFooter: {
       prev: '上一页',
       next: '下一页'
     },
@@ -68,8 +64,7 @@ export default defineConfig({
 
     notFound: {
       title: '页面未找到',
-      quote:
-        '请确认链接地址是否正确，或者返回首页继续浏览。',
+      quote: '请确认链接地址是否正确，或者返回首页继续浏览。',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },

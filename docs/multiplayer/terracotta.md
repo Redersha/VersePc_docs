@@ -1,4 +1,4 @@
-# 如何使用陶瓦联机
+# 3.1 如何使用陶瓦联机
 VersePc 内置了 [Terracotta | 陶瓦联机](https://github.com/burningtnt/Terracotta)（本项目与陶瓦联机制作组无关）。
 
 ![内置陶瓦联机页面 截图](https://r2.image-upload.app/ptImg/skXQVlOu.png)
