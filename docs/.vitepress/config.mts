@@ -10,11 +10,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: '更新日志', link: '/development/changelogs/releases' },
       { text: '返回启动器网站', link: 'https://www.verselauncher.cn/#' },
     ],
 
     sidebar: [
-      { text: '文档与教程',
+      { text: '教程',
         link: '/' ,
         items: [
           {

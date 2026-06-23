@@ -17,7 +17,7 @@ outline: false
 
 # 这里是 VersePc 启动器的教程与文档站！<badge type="tip" text="Preview" />
 
-**你可以查看左侧目录或顶部导航栏来找到你所需的内容。**
+**你可以查看左侧目录（或点击顶部`菜单`按钮）或通过搜索功能来找到你所需的内容。**
 
 <p style="margin-bottom: 2em"></p>  
 

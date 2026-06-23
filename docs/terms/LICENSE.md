@@ -1,4 +1,4 @@
-# 开源协议
+# VersePC 的开源协议
 
 https://github.com/doujie081231/versePc/blob/main/LICENSE
 
