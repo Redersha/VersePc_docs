@@ -12,3 +12,15 @@
 .gradient-page .vp-doc {
   background: transparent;
 }
+
+.VPHomeHero .image-container {
+  /* 水平偏移 */
+  transform: translateX(10px);
+  /* 或垂直偏移 */
+  transform: translateY(10px);
+
+  transform: scale(0.9); /* 缩小到80% */
+  /* 或同时调整位置 */
+  transform: scale(0.9) translateX(0px);
+
+}

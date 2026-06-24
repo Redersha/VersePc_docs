@@ -1,6 +1,6 @@
 # versePc 更新日志
 
-> 内容从 GitHub Releases 获取，非实时更新。
+> 内容从 [GitHub Releases](https://github.com/doujie081231/versePc/releases) 获取，非实时更新。
 
 ## v1.0.1 (2026年6月21日)
 
