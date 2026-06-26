@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '正文', link: '/main/start/', activeMatch: '^/(main)(/|$)'},
-      { text: '更新日志', link: '/development/changelogs/releases' },
+      { text: '开发', link: '/development/' },
     ],
 
     sidebar: {
