@@ -12,11 +12,10 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '正文', link: '/main/start/', activeMatch: '^/(main)(/|$)'},
-      { text: '更新日志', link: '/development/changelogs/releases' },
+      { text: '面向开发', link: '/dev_tutorial/' },
     ],
 
     sidebar: {
-
       '/main/': [
         {
           text: '新手入门',
@@ -32,6 +31,15 @@ export default defineConfig({
                 { text: '3.2 端口映射', link: '/main/multiplayer/port_mapping' },
               ]
             }
+          ]
+        }
+      ],
+      '/dev_tutorial/': [
+        {
+          text: '面向开发',
+          link: '/dev_tutorial/',
+          items: [
+
           ]
         }
       ]
@@ -82,6 +90,7 @@ export default defineConfig({
     },
 
     outline: {
+      level: [2, 4], 
       label: '页面导航'
     },
 

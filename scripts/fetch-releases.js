@@ -1,3 +1,5 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+
 const fs = require('fs')
 const path = require('path')
 
@@ -22,9 +24,11 @@ async function fetchReleases() {
       console.log('⚠️ 没有找到任何 Release')
       return
     }
+    
 
     // 构建 markdown 内容
-    let markdown = `# ${repo} 更新日志\n\n`
+    let markdown = `
+# ${repo} 更新日志\n\n`
     markdown += `> 内容从 GitHub Releases 获取，非实时更新。\n\n`
     
     releases.forEach((release, index) => {
@@ -49,7 +53,7 @@ async function fetchReleases() {
     })
 
     // ✅ 关键修复：先检查并创建目录
-    const outputDir = path.join(__dirname, '..', 'docs', 'development', 'changelogs')
+    const outputDir = path.join(__dirname, '..', 'docs')
     console.log('📁 目标目录:', outputDir)
     
     // 检查 docs 目录是否存在

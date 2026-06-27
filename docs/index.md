@@ -20,14 +20,13 @@ hero:
       link: 
     - theme: alt
       text: 更新日志
-      link: /development/changelogs/releases
+      link: /releases
 
   image:
     src: https://r2.image-upload.app/ptImg/1gLUCfYjN.png
     alt: logo
 
 ---
-  
 
 <InfoCard
   title="多系统 / 平台支持"
