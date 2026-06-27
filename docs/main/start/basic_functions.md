@@ -49,7 +49,7 @@
 
 ## 联机功能
 
-出于篇幅考虑，这部分被移到[联机教程](/multiplayer/terracotta)
+出于篇幅考虑，这部分被移到[联机教程](/main/multiplayer/terracotta)
 
 ## 账户管理
 
